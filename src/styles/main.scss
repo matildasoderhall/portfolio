@@ -1,0 +1,14 @@
+@use "vendor/normalize";
+
+@use "./variables";
+
+@use "./mobile";
+
+@media screen and (min-width: 800px) {
+  @import "./tablet";
+}
+
+@media screen and (min-width: 1280px) {
+  @import "./desktop";
+}
+
