@@ -1,3 +1,75 @@
+@use 'variables';
+
+body {
+    font-family: variables.$primary-font;
+    .img-container {
+        // height: 100%;
+        // width: auto;
+        // overflow: hidden;
+      
+        img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+    }
+    .feather {
+        stroke-width: 1;
+        fill: black;
+        color: variables.$white;
+    }
+}
+
+
+
+.my-name {
+    color: variables.$lion;
+}
+
 header {
     background-image: url("/src/images/hero_image.jpg");
-  }
+    height: 100%;
+    padding: 15%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 971px 971px;
+    position: relative;
+
+    .intro-container {
+        padding: 35px 17px;
+        background-color: variables.$white;
+    }
+    
+    h1 {
+        margin: 0;
+        font-size: 1.5rem;
+    }
+
+    p {
+        font-family: variables.$secondary-font;
+        padding-top: 10px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 40px 0 15px;
+    }
+}
+
+.tech-container {
+    background-color: variables.$hookers-green;
+    h2 {
+        margin: 0;
+    }
+}
+
+main {
+    h2 {
+        color: variables.$lion;
+    }
+}
+
+.skills-container {
+    background-color: variables.$beaver;
+}
