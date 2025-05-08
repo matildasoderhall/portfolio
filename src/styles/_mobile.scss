@@ -2,6 +2,7 @@
 
 body {
     font-family: variables.$primary-font;
+    background-color: variables.$seasalt;
     .img-container {
         // height: 100%;
         // width: auto;
@@ -10,7 +11,7 @@ body {
     .feather {
         stroke-width: 1;
         fill: black;
-        color: variables.$white;
+        color: variables.$seasalt;
     }
     img {
         width: 100%;
@@ -41,11 +42,11 @@ body {
 }
 
 .my-name {
-    color: variables.$lion;
+    color: variables.$gamboge;
 }
 
 header {
-    background-image: url("/src/images/hero_image.jpg");
+    background-image: url("");
     height: 100%;
     padding: 10% 10% 25%;
     background-position: center;
@@ -75,7 +76,7 @@ header {
 }
 
 .tech-container {
-    background-color: variables.$hookers-green;
+    background-color: variables.$reseda-green;
     
     p {
         font-family: variables.$secondary-font;
@@ -87,12 +88,12 @@ header {
 
 main {
     h2 {
-        color: variables.$lion;
+        color: variables.$gamboge;
     }
 }
 
 .skills-container {
-    background-color: variables.$beaver;
+    background-color: variables.$periwinkle;
     text-align: center;
     padding: 50px 20px 90px;
     h3 {
@@ -113,7 +114,7 @@ footer {
     margin: 25px 0 80px;
     h2 {
         font-size: 3.6rem;
-        color: variables.$hookers-green;
+        color: variables.$gamboge;
     }
    .img-container {
     display: flex;
