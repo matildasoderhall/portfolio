@@ -69,14 +69,16 @@ projects.forEach(project => {
     <div class="img-container">
       <img src="${project.img.url}">
     </div>
-    <h3>${project.title}</h3>
-    <p>${project.description}</p>
-    <ul>
-      ${(project.techStack as string[]).map((tech) => `<li>${tech}</li>`).join("")}
-    </ul>
-    <div class="buttons">
-      <a href="${project.liveUrl}" target="_blank"><button>Live Site</button></a>
-      <a href="${project.githubUrl}" target="_blank"><button>GitHub</button></a>
+    <div class="content-container">
+      <h3>${project.title}</h3>
+      <p>${project.description}</p>
+      <ul>
+        ${(project.techStack as string[]).map((tech) => `<li>${tech}</li>`).join("")}
+      </ul>
+      <div class="buttons">
+        <a href="${project.liveUrl}" target="_blank"><button>Live Site</button></a>
+        <a href="${project.githubUrl}" target="_blank"><button>GitHub</button></a>
+      </div>
     </div>
   `;
 

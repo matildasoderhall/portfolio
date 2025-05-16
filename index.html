@@ -9,31 +9,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>Matilda Söderhäll</title>
   </head>
   <body>
     <header>
-      <div class="circle-container">
-        <img src="./src/images/profilbild_small.jpg" alt="" width="2994" height="2994">
-      </div>
-      <div class="intro-container">
-        <h1>
-          <span class="my-name">Matilda Söderhäll</span>
-          <span>Frontend Developer</span>
-        </h1>
-        <p>Matilda is a front-end developer with a uniquely creative edge — they began their journey in the world of performing arts. Years on stage taught them storytelling, adaptability, and how to read a room — all skills they now channel into crafting intuitive, user-centered digital experiences. Whether they're integrating APIs or designing sleek interfaces, Matilda brings a blend of technical curiosity, aesthetic sensibility, and human insight that makes their work both functional and full of personality.</p>
-        <nav>
-          <a href="https://www.linkedin.com/in/matildasoderhall/" target="_blank">
-            <i data-feather="linkedin"></i>
-          </a>
-          <a href="https://github.com/matildasoderhall" target="_blank">
-            <i data-feather="github"></i>
-          </a>
-          <a href="https://www.instagram.com/matildasoderhall/" target="_blank">
-            <i data-feather="instagram"></i>
-          </a>
-        </nav>
+      <div class="profile-card">
+        <img src="./src/images/profilbild_small.jpg" alt="" width="2994" height="2994" class="profile-img">
+        <div class="profile-info">
+          <h1>
+            <span class="my-name">Matilda Söderhäll</span>
+            <span>Frontend Developer</span>
+          </h1>
+          <p class="bio">Matilda is a front-end developer with a uniquely creative edge — they began their journey in the world of performing arts. Years on stage taught them storytelling, adaptability, and how to read a room — all skills they now channel into crafting intuitive, user-centered digital experiences. Whether they're integrating APIs or designing sleek interfaces, Matilda brings a blend of technical curiosity, aesthetic sensibility, and human insight that makes their work both functional and full of personality.</p>
+          <nav class="social-icons">
+            <a href="https://www.linkedin.com/in/matildasoderhall/" target="_blank">
+              <i data-feather="linkedin"></i>
+            </a>
+            <a href="https://github.com/matildasoderhall" target="_blank">
+              <i data-feather="github"></i>
+            </a>
+            <a href="https://www.instagram.com/matildasoderhall/" target="_blank">
+              <i data-feather="instagram"></i>
+            </a>
+          </nav>
+        </div>
       </div>
     </header>
     <section class="tech-container">
@@ -42,7 +42,7 @@
     </section>
     <main>
       <h2>Featured Projects</h2>
-      <div id="projects-container"></div>
+      <div id="projects-container" class="projects-container"></div>
     </main>
     <section class="skills-container">
       <h2>Skills</h2>
@@ -77,9 +77,7 @@
     <footer>
      <h2>Get in touch!</h2>
       <div class="img-container">
-        <div class="circle-container">
-          <img src="./src/images/profilbild_small.jpg" alt="" width="2994" height="2994">
-        </div>
+        <img src="./src/images/profilbild_small.jpg" alt="" width="2994" height="2994" class="profile-img">
       </div>
       <div class="contact-info-container">
         <h3>

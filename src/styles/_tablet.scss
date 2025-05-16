@@ -1,0 +1,69 @@
+@use 'variables';
+
+header {
+    padding-inline: 10%;
+}
+.projects-container {
+    padding-inline: 25px;
+}
+
+.profile-card {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    grid-template-rows: auto auto;  
+    gap: 1rem;
+    align-items: center;
+    text-align: left;
+    background: variables.$seasalt;
+    border-radius: 1rem;
+    padding: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-img {
+    grid-column: 1;
+    grid-row: 1 / 2;
+    margin-bottom: 0;
+    margin-left: 2rem;
+  }
+
+  .profile-info {
+    background: none;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+    display: contents;
+
+    h1 {
+        grid-column: 2;
+        grid-row: 1;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+  }
+
+  .bio {
+    grid-column: 1 / -1;
+    grid-row: 2;
+  }
+
+  .social-icons {
+  grid-column: 1 / -1;
+  grid-row: 3;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+ .content-conatiner {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+ }
+ 
+
+ .buttons {
+    flex-direction: row;
+ }
