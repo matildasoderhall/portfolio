@@ -21,7 +21,7 @@ const projects = [
   {
     title: "Donut webshop",
     description: "Gotfrids Munkfabrik is a fictional donut shop created for a school project. It was my first project using JavaScript, focusing on basic interactivity and DOM manipulation.", 
-    techStack: [ 'html', 'js', 'scss' ],
+    techStack: [ 'HTML', 'JavaScript', 'Scss' ],
     liveUrl: "https://matildasoderhall.github.io/donut-webshop/",
     githubUrl: "https://github.com/matildasoderhall/donut-webshop",
     img: {
