@@ -59,6 +59,11 @@ body {
     border-radius: 1rem;
     padding: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    h1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 header {
     background-image: url("/src/images/background_img.png");
