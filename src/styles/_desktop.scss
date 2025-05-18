@@ -27,3 +27,17 @@
     text-align: center;  
   }
 }
+
+
+footer {
+    grid-template-columns: repeat(4, 1fr);
+
+    .img-container{
+        grid-column: 2;
+        padding-right: 1.7rem;
+    }
+
+    h3 {
+        grid-column: 3 / span 2;
+    }
+}
