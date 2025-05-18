@@ -1,0 +1,16 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 8vw;
+    row-gap: 5vw;
+    padding-inline: 10vw;
+    padding-bottom: 7vw;
+
+    .project-card {
+        display: block;
+    }
+    .img-container {
+        max-width: 100%;
+    }
+
+}
