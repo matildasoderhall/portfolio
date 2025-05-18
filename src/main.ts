@@ -13,8 +13,8 @@ const projects = [
     githubUrl: "https://github.com/matildasoderhall/cartoon-quiz",
     img: {
       url: './src/images/cartoon_quiz.jpg',
-      width: '',
-      height: '',
+      width: '1600',
+      height: '1066',
       alt: ''
     }
   },
@@ -22,12 +22,12 @@ const projects = [
     title: "Donut webshop",
     description: "Gotfrids Munkfabrik is a fictional donut shop created for a school project. It was my first project using JavaScript, focusing on basic interactivity and DOM manipulation.", 
     techStack: [ 'html', 'js', 'scss' ],
-    liveUrl: "",
+    liveUrl: "https://matildasoderhall.github.io/donut-webshop/",
     githubUrl: "https://github.com/matildasoderhall/donut-webshop",
     img: {
-      url: './src/images/',
-      width: '',
-      height: '',
+      url: './src/images/donut_webshop.jpg',
+      width: '2416',
+      height: '1496',
       alt: ''
     }
   },
@@ -39,24 +39,24 @@ const projects = [
     githubUrl: "https://github.com/matildasoderhall/reptilicious",
     img: {
       url: './src/images/reptilicious.jpg',
-      width: '',
-      height: '',
+      width: '1494',
+      height: '996',
       alt: ''
     }
   },
-  {
-    title: "",
-    description: "", 
-    techStack: "",
-    liveUrl: "",
-    githubUrl: "",
-    img: {
-      url: './src/images/',
-      width: '',
-      height: '',
-      alt: ''
-    }
-  },
+  // {
+  //   title: "",
+  //   description: "", 
+  //   techStack: [],
+  //   liveUrl: "",
+  //   githubUrl: "",
+  //   img: {
+  //     url: './src/images/',
+  //     width: '',
+  //     height: '',
+  //     alt: ''
+  //   }
+  // },
 ]
 
 const projectsContainer = document.querySelector('#projects-container');
