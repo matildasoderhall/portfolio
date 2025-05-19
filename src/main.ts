@@ -12,7 +12,7 @@ const projects = [
     liveUrl: "https://matildasoderhall.github.io/cartoon-quiz/",
     githubUrl: "https://github.com/matildasoderhall/cartoon-quiz",
     img: {
-      url: '../public/images/cartoon_quiz.jpg',
+      url: './public/images/cartoon_quiz.jpg',
       width: '1600',
       height: '1066',
       alt: ''
@@ -25,7 +25,7 @@ const projects = [
     liveUrl: "https://matildasoderhall.github.io/donut-webshop/",
     githubUrl: "https://github.com/matildasoderhall/donut-webshop",
     img: {
-      url: '../public/images/donut_webshop.jpg',
+      url: './public/images/donut_webshop.jpg',
       width: '2416',
       height: '1496',
       alt: ''
@@ -38,7 +38,7 @@ const projects = [
     liveUrl: "https://matildasoderhall.github.io/reptilicious/",
     githubUrl: "https://github.com/matildasoderhall/reptilicious",
     img: {
-      url: '../public/images/reptilicious.jpg',
+      url: './public/images/reptilicious.jpg',
       width: '1494',
       height: '996',
       alt: ''
