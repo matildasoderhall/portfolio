@@ -1,5 +1,9 @@
+
+
+
 .profile-card {
     grid-template-columns: repeat(6, auto); 
+    padding-inline: 10rem;
     .img-container {
         grid-column: 2;
     }
@@ -8,6 +12,9 @@
     }
 }
 
+.tech-container {
+    padding-inline: 10vw;
+}
 
 .projects-container {
     display: grid;

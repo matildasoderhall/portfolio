@@ -76,12 +76,35 @@ header {
 
 .tech-container {
     background-color: variables.$reseda-green;
+    padding-bottom: 1rem;
+    padding-inline: 2rem;
+
+    ul {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        line-height: 1.4;
+    }
     
-    p {
+    li {
+        list-style: none;
         font-family: variables.$secondary-font;
         font-size: 1.3rem;
-        font-weight: 400;
-        padding: 30px 20px 100px;
+        margin-left: 0.5rem;
+    }
+    .bold {
+        font-weight: 600;
+        font-size: 1.4rem;
+        color: variables.$seasalt;
+    }
+    .purple {
+        background-color: variables.$periwinkle;
+    }
+    .orange {
+        background-color: variables.$gamboge;
+    }
+    .charcoal {
+        background-color: variables.$charcoal;
     }
 }
 
