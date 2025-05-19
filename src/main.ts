@@ -6,6 +6,19 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const projects = [
   {
+    title: "StoryStack",
+    description: "StoryStack is a user-friendly full-stack web app for exploring, managing, and reviewing books, with tools for both users and admins. It was developed as a school project with a focus on simplicity and clean design.", 
+    techStack: ['TypeScript', 'Sass', 'Vite', 'Vue', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Vercel'],
+    liveUrl: "https://book-app-client-flax.vercel.app/",
+    githubUrl: "https://github.com/matildasoderhall/book-app",
+    img: {
+      url: './images/storystack.jpg',
+      width: '1307',
+      height: '805',
+      alt: ''
+    }
+  },
+  {
     title: "Cartoon quiz",
     description: "A school project and my first group collaboration using TypeScript. It’s a fun, interactive quiz themed around classic cartoons.", 
     techStack: ['HTML', 'JavaScript', 'TypeScript', 'SCSS', 'Prettier', 'EsLint', 'Vite'],
@@ -44,6 +57,7 @@ const projects = [
       alt: ''
     }
   },
+ 
   // {
   //   title: "",
   //   description: "", 
