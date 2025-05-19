@@ -1,13 +1,114 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <link rel="stylesheet" href="src/styles/main.scss">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Matilda Söderhäll</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <div class="profile-card">
+        <div class="img-container">
+          <img src="./src/images/profilbild_small.jpg" alt="" class="profile-img" width="2994" height="2994">
+        </div>
+        <div class="profile-info">
+          <h1>
+            <span class="my-name">Matilda Söderhäll</span>
+            <span>Frontend Developer</span>
+          </h1>
+          <p class="bio">Matilda is a front-end developer with a uniquely creative edge — they began their journey in the world of performing arts. Years on stage taught them storytelling, adaptability, and how to read a room — all skills they now channel into crafting intuitive, user-centered digital experiences. Whether they're integrating APIs or designing sleek interfaces, Matilda brings a blend of technical curiosity, aesthetic sensibility, and human insight that makes their work both functional and full of personality.</p>
+          <nav class="social-icons">
+            <a href="https://www.linkedin.com/in/matildasoderhall/" target="_blank">
+              <i data-feather="linkedin"></i>
+            </a>
+            <a href="https://github.com/matildasoderhall" target="_blank">
+              <i data-feather="github"></i>
+            </a>
+            <a href="https://www.instagram.com/matildasoderhall/" target="_blank">
+              <i data-feather="instagram"></i>
+            </a>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="tech-container">
+      <h2>Tech</h2>
+      <p>HTML, CSS, Sass, JavaScript, Vue, React, Node.js, Maria DB, MongoDB, Web Accessiblity, API:s, par-programming, Github.</p>
+    </section>
+    <main>
+      <h2>Featured Projects</h2>
+      <div id="projects-container" class="projects-container"></div>
+    </main>
+    <section class="skills-container">
+      <h2>Skills</h2>
+      <div class="code-skills">
+        <h3>Code</h3>
+        <ul>
+          <li>Html5</li>
+          <li>Css</li>
+          <li>JavaScript</li>
+          <li>Vue</li>
+          <li>Node.js</li>
+          <li>GitHub</li>
+        </ul>
+      </div>
+      <div class="toolbox-skills">
+        <h3>Toolbox</h3>
+        <ul>
+          <li>Adobe Photoshop</li>
+          <li>Adobe InDesign</li>
+          <li>Figma</li>
+          <li>Miro</li>
+        </ul>
+      </div>
+      <div class="more-skills">
+        <h3>More</h3>
+        <ul>
+          <li>SCRUM</li>
+          <li>Design Thinking</li>
+        </ul>
+      </div>
+     <div class="upcomming-skills">
+      <h3>Upcomming</h3>
+      <ul>
+        <li>Testing</li>
+        <li>React</li>
+        <li>Cybersecurity</li>
+      </ul>
+     </div>
+    </section>
+    <footer>
+      <h2>Get in touch!</h2>
+      <div class="img-container">
+        <img src="./src/images/profilbild_small.jpg" alt="" class="profile-img" width="2994" height="2994">
+      </div>
+      <h3>
+        <span class="my-name">Matilda Söderhäll</span>
+        <span>Frontend Developer</span>
+      </h3>
+      <div class="contact-details">
+        <p>+46(0)722 13 32 25</p>          
+        <p>matilda.soderhall@medieinstitutet.se</p>
+      </div>
+      <nav>
+        <a href="https://www.linkedin.com/in/matildasoderhall/" target="_blank">
+          <i data-feather="linkedin"></i>
+        </a>
+        <a href="https://github.com/matildasoderhall" target="_blank">
+          <i data-feather="github"></i>
+        </a>
+        <a href="https://www.instagram.com/matildasoderhall/" target="_blank">
+          <i data-feather="instagram"></i>
+        </a>
+      </nav>
+    </footer>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
